@@ -4,24 +4,6 @@
 
 ---
 
-##  Table of Contents
-1. [Project Overview](#project-overview)
-2. [Problem Statement](#problem-statement)
-3. [Algorithm Strategy](#algorithm-strategy)
-4. [Features](#features)
-5. [Installation & Setup](#installation--setup)
-6. [How to Play](#how-to-play)
-7. [Game Rules](#game-rules)
-8. [Technical Details](#technical-details)
-9. [Complexity Analysis](#complexity-analysis)
-10. [File Structure](#file-structure)
-11. [Screenshots](#screenshots)
-12. [Troubleshooting](#troubleshooting)
-13. [Future Enhancements](#future-enhancements)
-14. [Credits](#credits)
-
----
-
 ## Project Overview
 
 The **Code Guessing Game** is an interactive GUI-based puzzle game where the player must identify a hidden binary code by asking strategic questions. The game implements the **Decrease-and-Conquer algorithm** to solve the puzzle in at most `n` questions (where `n` is the code length).
