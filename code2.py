@@ -16,7 +16,7 @@ def count_matches(hiddenCode, userGuess):
 
 def play_win_sound():
     winsound.PlaySound("win.wav", winsound.SND_FILENAME | winsound.SND_ASYNC)
-# ADVANCED GRAPHICS HELPERS
+
 def draw_gradient_rect(canvas, x1, y1, x2, y2, color1, color2, steps=40, direction="vertical"):
     """Draw a smooth gradient rectangle on a canvas."""
     def hex_to_rgb(h):
@@ -353,7 +353,7 @@ class CodeGuessGame:
         self.statusLabel = tk.Label(
             root,
             text="🙂 Start Guessing!",
-            font=("Courier", 15, "bold"),   # was Arial 14
+            font=("Courier", 15, "bold"),  
             fg="#ff6666",
             bg=BG
         )
